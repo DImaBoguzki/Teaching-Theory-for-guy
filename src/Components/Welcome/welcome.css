@@ -1,0 +1,15 @@
+.root-welcome {
+    height: 100vh;
+    overflow-y: hidden;
+    background-image: url('../../img//wellcome.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    background-color: brown;
+}
+.header-text {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    font-size: 3rem;
+}
