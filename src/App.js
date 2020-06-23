@@ -28,8 +28,6 @@ function App() {
       setWelcomeToggle(false);
     },3000);
   }, []);
-  useEffect(()=>{
-  }, [page]);
   const handleNext = async () => {
     setMoutPage(false);
     await setDelay(10);
