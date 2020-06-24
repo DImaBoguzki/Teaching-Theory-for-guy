@@ -24,8 +24,8 @@
       border-radius: 5px;
   }
   .emphasis-label {
-        color: #dddd00;;
-        animation: emphasis 2000ms infinite;
+    color: #dddd00;;
+    animation: emphasis 2000ms infinite;
   }
   .list-button {
     direction: ltr;
@@ -59,9 +59,10 @@
     cursor: pointer;
     color: #00aa00;
     margin-right: 10px;
-    padding: 3px;
-    background-color: rgba(0,0,0,0.3);
+    padding: 2px;
+    background-color: rgba(0,0,0,0.1);
     border-radius: 10px;
+    margin: 5px;
   }
   .doneIcon:hover{
     background-color: rgba(0,0,0,0.6);
@@ -71,6 +72,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .link-mashov{
+    font-size: 2rem;
+    color: #111;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px 1px black;
+    text-decoration: none;
+    border-radius: 8px;
+    animation: blink 1500ms infinite;
+  }
+  @keyframes blink {
+    from{
+      opacity: 0.7;
+      background-color: #fff;
+    }
+    to{
+      opacity: 1;
+      background-color: #fffc57;
+    }
   }
   @media only screen and (max-width: 600px) {
     .divTwoImg{

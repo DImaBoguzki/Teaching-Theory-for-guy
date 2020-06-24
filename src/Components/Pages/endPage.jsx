@@ -101,7 +101,14 @@ function EndPage() {
               })
             }
           <div className='action-page'>  
-            <Button onClick={handleSend} variant='contained'>שלח</Button>
+            <Button 
+              onClick={handleSend} 
+              variant='contained'
+              color='primary'
+              size='large'
+            >
+                שלח את התשובות שלך
+            </Button>
           </div>
         </div> :
           <div className='flexDiv'>
@@ -112,6 +119,10 @@ function EndPage() {
             width={500}
             height={500}
           />
+          <h4> בבקשה מלאו בתשומת לב, בכנות ובהוגנות את טופס המשוב.</h4>
+          <a className='link-mashov' href='https://docs.google.com/forms/d/e/1FAIpQLSeLtFoOM_kJ1_7-82Uc6fcPS1qktG-1lGSu4wtZuFNlnwCYaA/viewform'>
+            משוב
+          </a>
           </div>
         }
       </div>
